@@ -11,6 +11,9 @@ header img{
 nav ul{
     list-style: none;
     text-align: center;
-    display: flex;
     
+}
+nav li{
+    display: inline-block;
+    margin: 10px;
 }
