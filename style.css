@@ -6,7 +6,7 @@ header img{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 5rem;
+    width: 10rem;
 }
 nav ul{
     list-style: none;
@@ -27,9 +27,17 @@ main{
     grid-template-areas:
                         "promotion promotion promotion"
                         "part1 part2 part3"
-
     ;
 }
 .promotion{
     grid-area: promotion;
+}
+.part1{
+    grid-area: part1;
+}
+.part2{
+    grid-area: part2;
+}
+.part3{
+    grid-area: part3;
 }
