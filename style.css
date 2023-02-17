@@ -8,3 +8,9 @@ header img{
     margin-left: auto;
     width: 5rem;
 }
+nav ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    
+}
