@@ -17,3 +17,6 @@ nav li{
     display: inline-block;
     margin: 10px;
 }
+section img{
+    width: 5rem;
+}
