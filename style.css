@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    padding: 2rem;
+}
 header img{
     display: block;
     margin-right: auto;
@@ -20,6 +23,9 @@ nav li{
 section img{
     width: 5rem;
 }
+footer img{
+    width: 20rem;
+}
 main{
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -30,6 +36,12 @@ main{
                         "promotion promotion promotion"
                         "part1 part2 part3"
     ;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    padding: 1rem 0rem;
+    
 }
 .promotion{
     grid-area: promotion;
