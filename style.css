@@ -22,6 +22,9 @@ nav li{
     display: inline-block;
     margin: 10px;
 }
+nav a:hover{
+    color:azure;
+}
 li a{
     text-decoration: none;
     color: crimson;
