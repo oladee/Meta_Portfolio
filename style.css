@@ -4,6 +4,7 @@
 }
 body{
     padding: 2rem;
+    background-color: whitesmoke;
 }
 header img{
     display: block;
@@ -14,17 +15,29 @@ header img{
 nav ul{
     list-style: none;
     text-align: center;
-    
+    background-color: burlywood;
+    border-radius: 5px;
 }
 nav li{
     display: inline-block;
     margin: 10px;
 }
+li a{
+    text-decoration: none;
+    color: crimson;
+}
+section{
+    background-color: darkkhaki;
+    padding: 10px;
+}
 section img{
     width: 5rem;
 }
 footer img{
-    width: 20rem;
+    width: 10rem;
+}
+article{
+    margin-top: 10px;
 }
 main{
     display: grid;
